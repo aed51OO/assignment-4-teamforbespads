@@ -117,7 +117,7 @@ public class RangePricingApplication {
         market1.addValidChannel(channel1);
         market1.addValidChannel(channel2);
         market1.addValidChannel(channe13);
-        market1.addValidChannel(channel2);
+        //market1.addValidChannel(channel2);
         market2.addValidChannel(channel1);
         market2.addValidChannel(channel2);
         market2.addValidChannel(channe13);
