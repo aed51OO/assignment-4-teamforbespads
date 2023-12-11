@@ -1,0 +1,12 @@
+srno, Customer_Name, Market, Channel
+1,Dell,Medicare,Social Media
+2,IBM,Information Technology,Social Media
+3,Microsoft,Medicare,Social Media
+4,JP Morgan,Medicare,Website
+5,Google,Medicare,Television
+6,Accenture,Education,Social Media
+7,Northeastern University,Information Technology,Website
+8,Boston University,Medicare,Social Media
+9,Umass Boston,Information Technology,Website
+10,Brigham and Women's,Education,Television
+11,Mass General,Education,Television

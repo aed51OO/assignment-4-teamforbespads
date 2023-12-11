@@ -1,0 +1,139 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package TheBusiness.MarketModel;
+
+import java.util.ArrayList;
+import TheBusiness.ProductManagement.Product;
+import TheBusiness.SolutionOrders.SolutionOrder;
+
+/**
+ *
+ * @author kal bugrara
+ */
+public class SolutionOffer {
+    ArrayList<Product> products;
+    int price;//floor, ceiling, and target ideas
+    float floor;
+    float ceiling;
+    float target;
+    String ad;
+    String solutionName;
+    MarketChannelAssignment marketchannelcomb;
+    ArrayList<SolutionOrder> solutionorders;
+
+    public float getFloor() {
+        return floor;
+    }
+
+    public void setFloor(float floor) {
+        this.floor = floor;
+    }
+
+    public float getCeiling() {
+        return ceiling;
+    }
+
+    public void setCeiling(float ceiling) {
+        this.ceiling = ceiling;
+    }
+
+    public float getTarget() {
+        return target;
+    }
+
+    public void setTarget(float target) {
+        this.target = target;
+    }
+
+    public MarketChannelAssignment getMarketchannelcomb() {
+        return marketchannelcomb;
+    }
+
+    public ArrayList<SolutionOrder> getSolutionorders() {
+        return solutionorders;
+    }
+
+    public void setMarketchannelcomb(MarketChannelAssignment marketchannelcomb) {
+        this.marketchannelcomb = marketchannelcomb;
+    }
+    
+    public SolutionOffer(MarketChannelAssignment m){
+        marketchannelcomb = m;
+        products = new ArrayList();
+        solutionorders = new ArrayList();
+        m.addSolutionOffer(this); 
+       
+    } 
+    
+     public SolutionOffer(MarketChannelAssignment m, String solName){
+        marketchannelcomb = m;
+        products = new ArrayList();
+        solutionorders = new ArrayList();
+        solutionName = solName;
+        m.addSolutionOffer(this); 
+       
+    } 
+    public void calculatePrices(Product product){
+        floor += product.getFloorPrice();
+        ceiling += product.getCeilingPrice();
+        target += product.getTargetPrice();
+    }
+    
+    public float getTargetPrice(){
+        return target;
+    }
+    public void addProduct(Product p){
+        products.add(p);
+        calculatePrices(p);
+    }
+    public void setTotalPrice(int p){
+        price = p;
+        
+    }
+    public int getSolutionPrice(){
+        return price;
+    }
+    
+    public float getRevenues(){
+        float sum = 0;
+        for(SolutionOrder so: solutionorders){
+            sum = sum + so.getSolutionPrice();
+            
+        }
+        return sum;
+    }
+    
+    public void addSolutionOrder(SolutionOrder so){
+        solutionorders.add(so);
+    }
+    // this will allow one to retrieve all offers meant for this market/channel combo
+    public boolean isSolutionOfferMatchMarketChannel(MarketChannelAssignment mca){
+        
+        if (marketchannelcomb==mca) return true;
+        else return false;
+    }
+    public String getAd(){
+        return ad;
+    }
+    public void setAd(String a){ //this an amazing solution for people like
+        ad = a;
+    }
+
+    public String getSolutionName() {
+        return solutionName;
+    }
+
+    public void setSolutionName(String solutionName) {
+        this.solutionName = solutionName;
+    }
+    
+    
+       @Override
+       public String toString(){
+           return solutionName;
+       }
+    
+}

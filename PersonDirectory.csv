@@ -1,0 +1,11 @@
+srno, Person_id, Type
+1,Employee10,Marketing
+2,Employee9,Marketing
+3,Employee8,Marketing
+4,Employee7,Marketing
+5,Employee6,Marketing
+6,Employee5,Marketing
+7,Employee4,Marketing
+8,Employee3,Sales
+9,Employee2,Sales
+10,Employee1,Marketing

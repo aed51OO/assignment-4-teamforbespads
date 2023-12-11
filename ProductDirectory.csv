@@ -1,0 +1,100 @@
+srno, Supplier, Product, Floor Price, Ceil Price, Target Price
+1,Epson,Scanner 1,15832,20122,16241
+2,Lenovo,Colour Printer 2,12733,19523,15165
+3,Epson,Colour Scanner 3,14953,16805,15189
+4,Epson,Scanner 4,13829,21634,14051
+5,Lenovo,Scanner 5,13065,14907,13849
+6,Lenovo,Colour Scanner 6,13872,20687,18530
+7,Epson,Printer 7,13403,16103,14772
+8,Epson,Router 8,12566,19282,15341
+9,Epson,Colour Printer 9,13494,17539,13547
+10,Epson,Colour Scanner 10,13573,17500,13907
+11,Epson,Router 11,14169,24174,23832
+12,Epson,Router 12,12941,22984,21079
+13,Lenovo,Router 13,14499,22831,22259
+14,Epson,Colour Scanner 14,12197,19716,12938
+15,Lenovo,Low Tonner Scanner 15,15794,16929,16526
+16,Lenovo,Router 16,13984,19215,16528
+17,Epson,Colour Printer 17,13942,21579,20633
+18,Epson,Colour Copier 18,14632,24721,19771
+19,Lenovo,Colour Scanner 19,12881,14619,13301
+20,Lenovo,Scanner 20,13016,16955,14763
+21,Lenovo,Colour Scanner 21,13554,14151,13718
+22,Epson,Router 22,13872,21612,16901
+23,Lenovo,Colour Scanner 23,15242,22523,16207
+24,Epson,Colour Scanner 24,12388,19130,13655
+25,Lenovo,Router 25,14141,17506,14881
+26,Lenovo,Colour Printer 26,12354,12950,12505
+27,Lenovo,Colour Printer 27,15220,16497,15595
+28,Lenovo,Colour Scanner 28,13213,17485,16737
+29,Lenovo,Router 29,15615,18655,18060
+30,Epson,Scanner 30,13790,22101,19696
+31,Epson,Scanner 31,15027,24358,22288
+32,Epson,Colour Scanner 32,14644,22097,18046
+33,Lenovo,Colour Copier 33,12071,16112,14561
+34,Lenovo,Printer 34,14271,16878,16241
+35,Lenovo,Colour Printer 35,12368,16437,13068
+36,Epson,Colour Copier 36,12633,24601,24086
+37,Lenovo,Colour Copier 37,12459,16299,16111
+38,Epson,Colour Scanner 38,13869,22110,14540
+39,Lenovo,Printer 39,12328,23817,18481
+40,Epson,Printer 40,14694,20173,16934
+41,Epson,Scanner 41,12075,24397,16308
+42,Epson,Colour Printer 42,15677,23832,21746
+43,Lenovo,Colour Printer 43,15581,23759,19069
+44,Epson,Printer 44,13353,22322,17572
+45,Epson,Printer 45,15858,17011,16485
+46,Epson,Scanner 46,14859,18284,16189
+47,Epson,Scanner 47,12301,18605,17774
+48,Lenovo,Colour Scanner 48,14031,16353,15899
+49,Epson,Router 49,14906,21702,17824
+50,Lenovo,Colour Scanner 50,12751,21378,20805
+51,Epson,Scanner 51,13085,21745,17682
+52,Epson,Low Tonner Scanner 52,15852,16946,16647
+53,Epson,Colour Copier 53,14572,19911,15864
+54,Lenovo,Colour Copier 54,14779,20718,17850
+55,Epson,Low Tonner Scanner 55,15696,21444,16205
+56,Epson,Colour Printer 56,12936,24291,16669
+57,Lenovo,Colour Printer 57,15360,19066,18541
+58,Epson,Router 58,14389,15930,15748
+59,Epson,Printer 59,15513,18093,16172
+60,Epson,Low Tonner Scanner 60,12356,14029,12877
+61,Lenovo,Scanner 61,12455,15697,15162
+62,Lenovo,Scanner 62,15504,24402,16852
+63,Epson,Colour Scanner 63,13739,19056,17357
+64,Lenovo,Scanner 64,13386,19053,16757
+65,Epson,Printer 65,13154,18781,14110
+66,Lenovo,Scanner 66,14790,15640,14887
+67,Lenovo,Low Tonner Scanner 67,12170,21830,17345
+68,Epson,Colour Copier 68,13075,22656,20673
+69,Lenovo,Low Tonner Scanner 69,12621,21275,16692
+70,Epson,Colour Scanner 70,15634,24409,18117
+71,Lenovo,Printer 71,13279,17960,13365
+72,Epson,Router 72,15827,24560,19762
+73,Lenovo,Colour Printer 73,15678,23822,18329
+74,Epson,Printer 74,14184,18758,17144
+75,Epson,Printer 75,15469,17628,17260
+76,Epson,Low Tonner Scanner 76,14144,16144,15671
+77,Epson,Colour Scanner 77,15363,24115,24069
+78,Lenovo,Colour Scanner 78,15062,24460,24446
+79,Lenovo,Printer 79,14746,17110,16995
+80,Epson,Low Tonner Scanner 80,14240,21744,17444
+81,Epson,Colour Printer 81,15981,24281,20183
+82,Lenovo,Router 82,12372,20454,17505
+83,Epson,Printer 83,13132,14424,14290
+84,Lenovo,Scanner 84,14673,22398,19225
+85,Lenovo,Scanner 85,13928,24556,16611
+86,Epson,Scanner 86,15335,16307,15566
+87,Lenovo,Colour Scanner 87,14162,18498,18028
+88,Epson,Colour Copier 88,14770,17165,15645
+89,Lenovo,Low Tonner Scanner 89,15715,22778,16745
+90,Epson,Router 90,15253,16590,15289
+91,Epson,Colour Scanner 91,15515,21376,21247
+92,Epson,Colour Printer 92,13808,24314,14648
+93,Lenovo,Colour Copier 93,14738,15626,15108
+94,Epson,Router 94,15490,20025,19692
+95,Lenovo,Low Tonner Scanner 95,14567,16173,15958
+96,Epson,Colour Copier 96,12107,13375,13223
+97,Epson,Low Tonner Scanner 97,14093,23045,16294
+98,Lenovo,Colour Printer 98,14407,19777,19394
+99,Epson,Colour Copier 99,12248,22233,21622
